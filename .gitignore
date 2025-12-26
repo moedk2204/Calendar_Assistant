@@ -13,6 +13,7 @@ repro_*.py
 diagnose_*.py
 diagnostic_*.txt
 test_*.py
+debug_calendar.py
 
 # Python
 __pycache__/

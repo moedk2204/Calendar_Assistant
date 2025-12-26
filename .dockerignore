@@ -22,6 +22,7 @@ diagnose_*.py
 diagnostic_*.txt
 .gemini/
 test_*.py
+debug_calendar.py
 
 # IDEs
 .vscode/
