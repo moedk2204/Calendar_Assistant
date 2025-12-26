@@ -1,0 +1,27 @@
+# testing
+pytest
+pytest-cov
+
+# LangChain
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-core==0.2.38
+
+# Google Calendar API
+google-api-python-client==2.140.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+
+
+# Environment & Utilities
+python-dotenv==1.0.1
+pytz==2024.1
+# HTTP Requests
+httpx>=0.27.0
+
+# Testing
+pytest==8.3.4
+pytest-cov==6.0.0
+ 
+# Gradio
+gradio==6.0.2

@@ -1,0 +1,53 @@
+# Environment
+.env
+*.env
+
+# Google OAuth 
+token.json
+credentials.json  
+
+# Agent Diagnostics & Internal
+.gemini/
+*_log.txt
+repro_*.py
+diagnose_*.py
+diagnostic_*.txt
+test_*.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+myvenv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Additional ignores
+.mypy_cache/
+.pytype/
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+pip-wheel-metadata/
+.ipynb_checkpoints/
+.env.local
+.envrc
+*.log
+logs/
+.ropeproject/
+__pypackages__/

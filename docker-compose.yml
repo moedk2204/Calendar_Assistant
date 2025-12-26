@@ -1,0 +1,14 @@
+services:
+  calendar-assistant:
+    build: .
+    image: calendar-assistant:latest
+    container_name: calendar-assistant
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./credentials.json:/app/credentials.json
+      - ./token.json:/app/token.json
+    environment:
+      - PYTHONUNBUFFERED=1
+      - GRADIO_SERVER_NAME=0.0.0.0
+    restart: unless-stopped

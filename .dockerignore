@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+myvenv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment & Secrets
+.env
+*.env
+token.json
+credentials.json
+
+# Logs & Diagnostics
+*.log
+*_log.txt
+repro_*.py
+diagnose_*.py
+diagnostic_*.txt
+.gemini/
+test_*.py
+
+# IDEs
+.vscode/
+.idea/
+.git/
