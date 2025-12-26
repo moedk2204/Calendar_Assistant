@@ -100,3 +100,4 @@ This automatically handles the volume mounts for your `credentials.json` and `to
 
 ## 🔒 Privacy & Security
 Your calendar data is processed via secure Google API calls. All reasoning is performed via your Ollama instance, ensuring your schedule data is handled according to your configuration.
+"# Calendar_Assistant" 
