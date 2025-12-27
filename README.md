@@ -63,25 +63,8 @@ python app.py
 ```
 Open your browser at `http://localhost:7860`.
 
-### 🐳 Running with Docker
 
-You can also run the assistant using Docker for a clean, isolated environment:
-
-1. **Build the image**:
-   ```bash
-   docker build -t calendar-assistant .
-   ```
-
-2. **Run the container**:
-   Since `credentials.json` and `token.json` are sensitive, you should mount them:
-   ```bash
-   docker run -p 7860:7860 \
-     -v ${PWD}/credentials.json:/app/credentials.json \
-     -v ${PWD}/token.json:/app/token.json \
-     calendar-assistant
-   ```
-
-### 🪄 Even Easier: Docker Compose
+### 🪄  Running with: Docker Compose
 
 If you have Docker Compose installed, you can launch everything with one command:
 

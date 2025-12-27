@@ -23,5 +23,6 @@ httpx>=0.27.0
 pytest==8.3.4
 pytest-cov==6.0.0
  
-# Gradio
-gradio==6.0.2
+# Gradio & Compatibility
+gradio==6.2.0
+huggingface-hub
